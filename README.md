@@ -1,4 +1,4 @@
-**Employee Attrition Analysis with Logistic Regression**
+**<h1>Employee Attrition Analysis with Logistic Regression</h1>**   
 
 Project Overview
 This project explores employee attrition using **logistic regression**. The objective is to predict which employees are likely to leave the company based on various features and analyze the factors contributing to attrition.
