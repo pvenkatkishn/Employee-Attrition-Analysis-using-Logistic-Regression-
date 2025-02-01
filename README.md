@@ -1,15 +1,15 @@
 **<h1>Employee Attrition Analysis with Logistic Regression</h1>**   
 
-Project Overview
+<h3>Project Overview</h3>
 This project explores employee attrition using **logistic regression**. The objective is to predict which employees are likely to leave the company based on various features and analyze the factors contributing to attrition.
 
-1. Key Features
+<h3>Key Features</h3>
 - Application of Logistic Regression to model employee attrition.
 - Evaluation of model performance using metrics like accuracy, precision, recall, and F1 score.
 - Interpretation of key predictors and their impact on attrition through odds ratios.
 - Practical recommendations for reducing employee turnover based on data insights.
 
-2. Tech Stack
+<h3>Tech Stack</h3>
 
 Programming Language: Python
 
@@ -19,21 +19,39 @@ Libraries:
 - **matplotlib** and seaborn for data visualization.
 - **sklearn** for logistic regression and performance evaluation.
 
-3. Project Workflow
 
-      ![image](https://github.com/user-attachments/assets/71d6c12a-8ea9-4db5-977c-1cae1d4aba47)
-   
-4. Results
-- ✅ Employees working overtime are **2.6 times more likely to leave**.
-- 💡 Frequent business travel is associated with **higher attrition rates**.
-   
-6. Model Limitations: High overall accuracy but low recall for predicting actual attrition cases.
+<h3>Project Workflow</h3>
 
-7. Recommendations:
-- Reduce overtime and balance workloads.
+1. Reading a CSV file hosted on Google Drive into a pandas Dataframe
+2. Dropping unwanted columns: Employee number, Over 18, Standard hours
+3. Splitting the data into categorical & numerical variables
+4. Numerical Variables:
+   - Performing Exploratory Data Analysis and trying to understand the structure of the data and identifying any patterns or relationships between variables<br/>
+   - Finding a relationship between attrition & the other numerical variables
+   - Realtionships between different numerical variables through a heat-map & histogram
+5. Categorical Variables: 
+   - Univariate, bi & multi-variate Analysis for categorical variables
+   - Creating Dummy Variables
+6. Model Building:
+   - Scaling the data (Calculating Z-score using Standard scaling)
+   - Stratified Sampling
+   - Model Eval Criteria
+7. Logistic Regression Model
+8. Identifying which factors +vely or -vely affect attrition rate
+9. Precision Recall curve for Logistic regression -for identifying threshold
+10. Performance of the model using this threshold.
+
+<h3>Results</h3>
+✅ Employees working overtime are <ins>2.6 times more likely to leave</ins>.</br>
+💡 <ins>Frequent business travel</ins> is associated with <ins>higher attrition rates</ins>.
+
+<h3>Model Limitations:</h3> High overall accuracy but low recall for predicting actual attrition cases.
+
+<h3>Recommendations:</h3>
+- Reduce overtime and balance workloads.</br>
 - Reevaluate travel policies to improve employee satisfaction.
    
-7. Future Enhancements
-- Explore additional features like employee engagement scores and manager feedback.
-- Apply advanced machine learning models (e.g., Random Forest or XGBoost) for better predictive accuracy.
-- Automate the end-to-end pipeline for real-time attrition monitoring.
+<h3>Future Enhancements:</h3>
+- Explore additional features like employee engagement scores and manager feedback.</br>
+- Apply advanced machine learning models (e.g., Random Forest or XGBoost) for better predictive accuracy.</br>
+- Automate the end-to-end pipeline for real-time attrition monitoring.</br>
