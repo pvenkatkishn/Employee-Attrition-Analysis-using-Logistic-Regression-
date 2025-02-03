@@ -1,7 +1,9 @@
 **<h1>Employee Attrition Analysis with Logistic Regression</h1>**   
 
 <h3>Project Overview</h3>
-This project explores employee attrition using **logistic regression**. The objective is to predict which employees are likely to leave the company based on various features and analyze the factors contributing to attrition.
+The primary objective of this project is to help the Head of People Operations at McCurr Healthcare Consultancy to hire the best talent available and to retain them for as long as they can. For this purpose, two objectives are formulated:</br>
+1. To identify the different factors that drive attrition</br>
+2. To make a model to predict if an employee will attrite or not
 
 <h3>Key Features</h3>
 - Application of Logistic Regression to model employee attrition.
@@ -26,7 +28,7 @@ Libraries:
 2. Dropping unwanted columns: Employee number, Over 18, Standard hours
 3. Splitting the data into categorical & numerical variables
 4. Numerical Variables:
-   - Performing Exploratory Data Analysis and trying to understand the structure of the data and identifying any patterns or relationships between variables<br/>
+   - Performing Exploratory Data Analysis and trying to understand the structure of the data
    - Finding a relationship between attrition & the other numerical variables
    - Realtionships between different numerical variables through a heat-map & histogram
 5. Categorical Variables: 
@@ -36,16 +38,16 @@ Libraries:
    - Scaling the data (Calculating Z-score using Standard scaling)
    - Stratified Sampling
    - Model Eval Criteria
-7. Logistic Regression Model
-8. Identifying which factors +vely or -vely affect attrition rate
-9. Precision Recall curve for Logistic regression -for identifying threshold
+7. Building the Logistic Regression Model
+8. Identifying which factors +vely or -vely affect attrition rate (Understanding feature importance)
+9. Precision Recall curve for Logistic regression for identifying threshold for optimal performance
 10. Performance of the model using this threshold.
 
 <h3>Results</h3>
 ✅ Employees working overtime are <ins>2.6 times more likely to leave</ins>.</br>
 💡 <ins>Frequent business travel</ins> is associated with <ins>higher attrition rates</ins>.
 
-<h3>Model Limitations:</h3> High overall accuracy but low recall for predicting actual attrition cases.
+<h3>Model Limitations:</h3> High overall accuracy but low recall for predicting actual attrition cases
 
 <h3>Recommendations:</h3>
 - Reduce overtime and balance workloads.</br>
