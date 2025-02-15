@@ -58,3 +58,17 @@ Libraries:
 - Explore additional features like employee engagement scores and manager feedback.</br>
 - Apply advanced machine learning models (e.g., Random Forest or XGBoost) for better predictive accuracy.</br>
 - Automate the end-to-end pipeline for real-time attrition monitoring.</br>
+
+<h4>Visualizations depecting some of my key findings are shown below. Feel free to reach out if you have any other questions :)</h4>
+
+1. Data Profiling
+![p4](https://github.com/user-attachments/assets/a7664cbf-3f2f-48f1-903a-ce5c191e51b7)
+
+2. Overtime, Employee Travel v Attrition Rate
+![p3](https://github.com/user-attachments/assets/9786836f-7efc-40c2-8a3d-acc6e53647ec)
+
+3. Heatmap depecting relationship b/w numerical variables 
+![p2](https://github.com/user-attachments/assets/e6686f17-538f-41b3-9c7e-0fd4c8d43010)
+
+4. Model performance depicted using a confusion matrix & heatmap
+![p1](https://github.com/user-attachments/assets/72213cc2-ec34-47fb-9271-11394f2e3637)
