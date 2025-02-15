@@ -6,6 +6,7 @@ The primary objective of this project is to help the Head of People Operations a
 2. To make a model to predict if an employee will attrite or not
 
 <h3>Key Features</h3>
+
 - Application of Logistic Regression to model employee attrition.
 - Evaluation of model performance using metrics like accuracy, precision, recall, and F1 score.
 - Interpretation of key predictors and their impact on attrition through odds ratios.
